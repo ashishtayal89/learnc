@@ -131,7 +131,90 @@ Some operators that help us manipulate the output display. Eg
 
 Rule of thumb
 
-1. Add parenthesis based on the opreator precedence.
+1. Add parenthesis based on the operator precedence.
 2. If the precedence is same then add it based on associativity.
 
 Reference : http://en.cppreference.com/w/cpp/language/operator_precedence
+
+## Control structures
+
+1. Sequence structure : Basic application with one statement after another.
+2. Selection structure : If-else, switch
+3. Loop structure : for, while, do-while
+
+Syntax of if-else
+
+```cpp
+if(a<10){
+    // work 1
+} else if(a<20){
+    // work 2
+} else {
+    // work 3
+}
+```
+
+Syntax of switch
+
+```cpp
+switch(a){
+    case 10:
+        // work 1
+        break;
+    case 10:
+        // work 2
+        break;
+    default:
+        // work 3
+        break;
+}
+```
+
+Syntax of for loop
+
+```cpp
+for(int i=0; i<5; i++){
+    // Work
+}
+// for(initialization; condition; udpation){
+// }
+```
+
+Syntax of while
+
+```cpp
+int i = 0;
+while(i<10){
+    i++;
+    // Work
+}
+
+// initialization
+// while(condition){
+//     updation
+// }
+```
+
+Syntax of do-while
+
+```cpp
+int i = 0;
+do{
+    i++;
+    // Work
+}while(i<10)
+
+// initialization
+// do{
+//     updation
+// }while(condition)
+```
+
+## Break and Continue
+
+1. Break : It breaks the loop.
+2. Continue : It breaks the iteration. The loop continues running.
+
+## Pointers
+
+Refer to 5_pointers.cpp
