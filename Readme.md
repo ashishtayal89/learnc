@@ -218,3 +218,9 @@ do{
 ## Pointers
 
 Refer to 5_pointers.cpp
+
+## Arrays and Pointers
+
+Refer to 6_arrays.cpp
+
+- Formula for pointer arithematics : `(New address) = (Current address) + i*(Size of data type);` where i is the element index.
