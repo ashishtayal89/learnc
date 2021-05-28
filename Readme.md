@@ -224,3 +224,7 @@ Refer to 5_pointers.cpp
 Refer to 6_arrays.cpp
 
 - Formula for pointer arithematics : `(New address) = (Current address) + i*(Size of data type);` where i is the element index.
+
+## Referal
+
+https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL
