@@ -225,6 +225,15 @@ Refer to 6_arrays.cpp
 
 - Formula for pointer arithematics : `(New address) = (Current address) + i*(Size of data type);` where i is the element index.
 
-## Referal
+## Structures, Unions & Enums
+
+Refer to 7_struct_union_enum
+
+## Function and Function Prototypes
+
+- Function prototypes are used for function declaration, generally at the top of the file to let every other function in the file to have access to that function. Now even if you define the function at the end of file it would make it accessible to all other function declared before it.
+- Refer to 8_function_prototype.cpp
+
+## Referance
 
 https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL
