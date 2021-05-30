@@ -217,7 +217,11 @@ do{
 
 ## Pointers
 
-Refer to 5_pointers.cpp
+- Refer to 5_pointers.cpp
+- 3 kinds of variable
+  1. Value Variables : Variables holding the value eg `int a`
+  2. Reference Variables : Variables holding the reference value eg `int &a`
+  3. Pointers : Variables holding the value address eg `int *a`
 
 ## Arrays and Pointers
 
@@ -233,6 +237,25 @@ Refer to 7_struct_union_enum
 
 - Function prototypes are used for function declaration, generally at the top of the file to let every other function in the file to have access to that function. Now even if you define the function at the end of file it would make it accessible to all other function declared before it.
 - Refer to 8_function_prototype.cpp
+
+## Call by Value and Call by Reference
+
+Refer to 9_call_by_reference.cpp
+
+## Inline function, static variables, default arguments, constant arguments
+
+### Inline functions
+
+**Overload due to a normal function call:**
+
+1. Register new function in memory and jump to the new function.
+2. Actual paramenter are copies in formal parameters.
+3. Recieving the value back from function.
+
+To get rid of this overhead C++ provides us the feature of inline function. These function are used to improve the performance of the code by skipping the above steps. By using inline function we request the compiler to replace the function call with the actual code of the function at compile time. The compiler will evaluate if the inline request for the function is valid or not based on the function body. If it finds it to be suitable then it makes the function inline. There are some criterias we should consider before making a function line :
+
+1. The function should be very basic and small. If we make the big functions inline then the main function will take huge amoung of space in the memory and there will be no space left in memory cache.
+2. There should not be any static variables in an inline function.
 
 ## Referance
 
