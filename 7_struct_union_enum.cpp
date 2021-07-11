@@ -45,7 +45,7 @@ int main()
     cout << payU.rice << endl; // This will give you a garbage value since payU can hold 1 value at a time ie car = 'B' at this time.
 
     // Enums are used to define something which can have some fixed number of options.
-    // Not each options is actualy an integer value starting from 0.
+    // Each option is actualy an integer value starting from 0.
     // So breakfast is 0, lunch is 1, dinner is 2
     cout << "Enum :" << endl;
     enum Meal

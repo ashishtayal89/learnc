@@ -20,9 +20,9 @@ int main()
     // So every element occupies 4 consecutive memory location.
     // So in the above example :
     // 34 is stored in 4 consecutive memory locations say 1,2,3,4
-    // 25 is stored in next 4 consecutive memory locations say 1,2,3,4
-    // 45 is stored in next 4 consecutive memory locations say 1,2,3,4
-    // 23 is stored in next 4 consecutive memory locations say 1,2,3,4
+    // 25 is stored in next 4 consecutive memory locations say 5,6,7,8
+    // 45 is stored in next 4 consecutive memory locations say 9,10,11,12
+    // 23 is stored in next 4 consecutive memory locations say 13,14,15,16
 
     // p point to first byte of first element ie address of 34
     int *p = marks;

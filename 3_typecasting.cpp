@@ -32,8 +32,8 @@ int main()
     float b = 10.10;
     cout << "a: " << (float)a << endl;
     cout << "a: " << float(a) << endl;
-    cout << "b: " << (int)a << endl;
-    cout << "b: " << int(a) << endl;
+    cout << "b: " << (int)b << endl;
+    cout << "b: " << int(b) << endl;
 
     return 0;
 }
